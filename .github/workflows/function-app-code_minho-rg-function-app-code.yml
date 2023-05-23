@@ -65,6 +65,6 @@ jobs:
           app-name: 'minho-rg-function-app-code'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_38C45F459A3E48AE8F09FDCF415AF8C1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AAF4245FD4F1420881E86F49E894F6C5 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
